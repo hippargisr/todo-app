@@ -1,0 +1,59 @@
+# dependencies
+/server/node_modules
+/ui/node_modules
+
+/server/.pnp
+/server/.pnp.js
+
+/ui/.pnp
+/ui/.pnp.js
+
+# testing
+/server/coverage
+/ui/coverage
+
+# production
+server/build
+
+ui/build
+
+# misc
+server.DS_Store
+server.env.local
+server.env.development.local
+server.env.test.local
+server.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+server/.vscode/*
+ui/.vscode/*
+
+server/!.vscode/extensions.json
+ui/!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
