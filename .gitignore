@@ -45,11 +45,11 @@ dist-ssr
 *.local
 
 # Editor directories and files
-server/.vscode/*
-ui/.vscode/*
+/server/.vscode/*
+/ui/.vscode/*
 
 server/!.vscode/extensions.json
-ui/!.vscode/extensions.json
+/ui/!.vscode/extensions.json
 .idea
 .DS_Store
 *.suo
