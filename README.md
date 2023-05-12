@@ -2,12 +2,13 @@ This repository contains a MERN (MongoDB, Express, React, Node.js) stack Todo Ap
 
 Features:
 
-Create new todo items with a title and description.
-View a list of all todo items.
-Update existing todo items by editing their title and description.
-Delete todo items.
-User-friendly interface built with React components.
-API integration with the backend server using axios.
+--Create new todo items with a title and description.
+--View a list of all todo items.
+--Update existing todo items by editing their title and description.
+--Delete todo items.
+--User-friendly interface built with React components.
+--API integration with the backend server using axios.
+
 Instructions for running the application:
 
 Install Node.js and npm on your machine.
