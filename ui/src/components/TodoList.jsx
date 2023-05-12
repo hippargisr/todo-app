@@ -38,11 +38,6 @@ const TodoList = ({todos, fetchTodos}) => {
       <h2>Todo List</h2>
       <ul className="todoList">
         {todos.map((todo) => (
-          // <li key={todo._id} className="todoList_item">
-          //   <h3>{todo.title}</h3>
-          //   <p>{todo.description}</p>
-          //   <button onClick={() => handleDelete(todo._id)}>Delete</button>
-          // </li>
           <li key={todo._id} >
           {editTodo && editTodo.id === todo._id ? (
             <form onSubmit={handleUpdate}>
